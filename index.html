@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Seguros Sura - SOAP</title>
+		
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css" >
+		<link rel="stylesheet" href="assets/css/style.css" >
+		
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-6">
+						<a href="javascript:void(0);" target="_blank" id="seguros">
+							<img src="assets/img/txt-seguros.png" alt="Seguros">
+						</a>
+					</div>
+					<div class="col-xs-6 text-right">
+						<a href="javascript:void(0);" target="_blank" id="logo-sura">
+							<img src="assets/img/logo-sura.png" alt="Sura">
+						</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+		<section id="banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8">
+					</div>
+					<div class="col-md-4" id="formulario">
+						<form action="index.html" method="post" accept-charset="utf-8">
+							<h1>INGRESA CON TU<br>
+								CUENTA DE SOCIO<br>
+								CONDUCTOR UBER
+							</h1>
+							<div class="checkbox">
+		                    	<label>
+		                        	<input type="checkbox" id="acepto" class="" required> Acepto los términos y condiciones de Uber 
+								</label>
+								<div class="clearfix"></div>
+		                   	</div>
+							<div class="form-group">
+								<label for="rut">RUT</label>
+								<input type="text" name="rut" class="form-control" value="" required>
+							</div>
+							<div class="form-group text-center">
+								<button type="submit" class="btn btn-primary" id="btnLogin"><span>Siguiente</span> <i class="fa fa-sign-in" aria-hidden="true"></i></button>	
+							</div>
+							<p class="text-center small">Promoción permite sólo 1 compra por socio conductor</p>							
+						</form>
+						<div id="uber">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="info">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+						<h2>¡Tu seguro SOAP ya llegó!</h2>
+						<h3>Cómpralo con SURA a un precio especial: </h3>
+						<img src="assets/img/soap-precio.jpg" class="img-responsive" id="soap">
+						<p>Además podrás ganar 1 de las 12 Gift Cards de $1.000.000<br>
+						que regalaremos para que tengas un mes de marzo tranquilo.</p>
+					</div>
+					<div class="col-sm-6">
+						<img src="assets/img/giftcard.jpg" class="img-responsive pull-right" alt="Gift Card $1.000.000">
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 info">
+						<p>La campaña comienza el 01 de febrero y acaba el 31 de marzo.</p>
+					</div>
+					<div class="col-sm-6 links">
+						<p><a href="http://www.segurossura.cl" target="_blank">segurossura.cl</a> | <a href="javascript:void(0);" target="_blank">Ver Bases</a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		
+		<script src="assets/js/jquery.js"></script>
+		<script src="assets/js/bootstrap.min.js" ></script>
+	</body>
+</html>

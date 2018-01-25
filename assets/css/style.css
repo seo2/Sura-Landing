@@ -1,0 +1,41 @@
+body{font-family: Helvetica, Arial, sans-serif;color: #1e359d;}
+
+header{height: 120px;}
+#seguros{position: relative; top: 65px;}
+#logo-sura{ position: relative; top: 40px; right: -15px;}
+
+#banner{background: url(../img/banner.jpg) no-repeat center top; background-size: cover;}
+#formulario{background: #fff; margin: 70px 0 30px;}
+#formulario form .form-control{background: #0c359c; color: #fff; border-radius: 0; border: none;}
+#formulario form .btn-primary{width: 100%; border-radius: 0; border: none; color: #0c359c; background: #e4e640;}
+#formulario form .btn-primary:hover{width: 100%; border-radius: 0; border: none; color: #fff; background: #0c359c;}
+.checkbox {margin: 30px 0;}
+.checkbox label{font-size: 13px; }
+label{font-weight: lighter;}
+
+#uber{background: #000 url(../img/logo-uber.png) no-repeat center center; height: 50px; margin: 10px -15px 0;}
+
+#info{margin: 50px 0 80px;}
+#soap{margin: 20px 0 30px;}
+
+h1{font-size: 26px;}
+h2{color: #60aac5; font-size: 41px;}
+h3{font-size: 26px;}
+p{font-size: 18px;}
+
+footer{margin-bottom: 20px;}
+footer p{font-size: 16px;}
+footer a{color: #1e359d;}
+
+footer .links{text-align: right;}
+
+@media (max-width: 768px) { 
+	header{height: 90px;}
+	#seguros{top: 51px;}
+	#seguros img{width: 80px;}
+	#logo-sura{  right: 0;}
+	#logo-sura img{  width: 100px;}
+	#banner {background-size: contain; padding-top: 80px; }
+	#info{ margin: 30px 0 50px;}
+	footer .links{text-align: left;}
+}
